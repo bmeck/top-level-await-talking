@@ -116,7 +116,7 @@ async function start() {
 }
 ```
 
-Exporting a `then` function allows blocking `import()` when combined with any of the methods above.
+Exporting a `then` function allows blocking `import()`.
 
 
 ## Guarding against
