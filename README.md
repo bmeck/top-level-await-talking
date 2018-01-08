@@ -146,9 +146,10 @@ evaluating. `try{}catch{}` can also be used as a recovery or notification
 mechanism.
 
 ```mjs
-let b;
+// b
+let a;
 try {
-  b = await import('b');
+  a = await import('a');
 } catch {
   // do something
 }
